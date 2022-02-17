@@ -1,0 +1,26 @@
+<svg width="422" height="141" viewBox="0 0 422 141" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<g filter="url(#filter0_d_157_7318)">
+<path d="M6 2.81316C25.8889 -1.54027 65.1758 11.7873 93.1496 37.9747C126.418 69.1188 157.517 66.3156 172.705 69.118C218.992 77.6586 253.707 97.7502 276.489 107.294C299.271 116.838 376.296 110.308 399.801 121.359C418.605 130.2 416.073 131.405 412.457 130.903" stroke="url(#paint0_linear_157_7318)" stroke-width="3" stroke-linecap="round" class="frTuslZn_0"></path>
+</g>
+<path fill="white" stroke="url(#paint1_linear_157_7318)" stroke-width="4" d="M406,131A7,7 0,1,1 420,131A7,7 0,1,1 406,131" class="frTuslZn_1"></path>
+<defs>
+<filter id="filter0_d_157_7318" x="0.499512" y="0.5" width="420" height="140" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+<feOffset dy="4"></feOffset>
+<feGaussianBlur stdDeviation="2"></feGaussianBlur>
+<feComposite in2="hardAlpha" operator="out"></feComposite>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_157_7318"></feBlend>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_157_7318" result="shape"></feBlend>
+</filter>
+<linearGradient id="paint0_linear_157_7318" x1="6" y1="131" x2="415" y2="131" gradientUnits="userSpaceOnUse">
+<stop stop-color="#98D750"></stop>
+<stop offset="1" stop-color="#39B54A"></stop>
+</linearGradient>
+<linearGradient id="paint1_linear_157_7318" x1="408" y1="136" x2="418" y2="136" gradientUnits="userSpaceOnUse">
+<stop stop-color="#98D750"></stop>
+<stop offset="1" stop-color="#39B54A"></stop>
+</linearGradient>
+</defs>
+<style data-made-with="vivus-instant">.frTuslZn_0{stroke-dasharray:441 443;stroke-dashoffset:442;animation:frTuslZn_draw 2000ms linear 0ms forwards;}.frTuslZn_1{stroke-dasharray:44 46;stroke-dashoffset:45;animation:frTuslZn_draw 2000ms linear 1000ms forwards;}@keyframes frTuslZn_draw{100%{stroke-dashoffset:0;}}@keyframes frTuslZn_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

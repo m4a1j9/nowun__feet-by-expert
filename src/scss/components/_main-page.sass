@@ -1,0 +1,109 @@
+.main_page
+    @extend %section
+
+    @include adaptiv-value2('width',1200,320,1)
+
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: minmax(202px, 250px) 50%
+    grid-template-areas: "A C" "B C"
+
+    @include adaptiv-value2('margin-top',176,19,1)
+    @include adaptiv-value('margin-bottom',161,149,1)
+    .main_page__wrap
+
+    .wrap1
+        grid-area: A
+    .wrap2
+        grid-area: B
+
+        background: #FFFFFF
+        box-shadow: 20px 24px 44px rgba(0, 0, 0, 0.1)
+        border-radius: 30px
+
+        width: 100vw
+        max-width: 720px
+
+        @include adaptiv-value('padding-right',32,5,1)
+        @include adaptiv-value('padding-left',32,5,1)
+    .wrap3
+        grid-area: C
+
+        width: 100%
+    .main_page__main_title
+        @include adaptiv-value('font-size',66,32,1)
+        @include adaptiv-value('line-height',90,44,1)
+        img
+            @include adaptiv-value('width',64,31,1)
+            @include adaptiv-value('height',83,40,1)
+
+            @include adaptiv-value('margin-right',20,10,1)
+
+    .main_page__green_list
+        @extend %green_list
+
+        @include adaptiv-value('margin-top',26,14,1)
+        .main_page__green_item
+            .main_page__green_text
+
+    .main__page_title
+        @include adaptiv-value('font-size',29,21,1)
+        @include adaptiv-value('line-height',41,29,1)
+
+        @include adaptiv-value('margin-top',35,25,1)
+
+    .main_page__program_list
+        display: grid
+        grid-template-columns: 28% 24% 17% 15%
+        @include adaptiv-value('gap',35,14,1)
+
+        @include adaptiv-value('margin-top',33,23,1)
+        img
+            margin-bottom: 5px
+        .img1
+            width: 46.64px
+            height: 55px
+        .img2
+            width: 49.6px
+            height: 55px
+        .img3
+            width: 47.27px
+            height: 55px
+        .img4
+            width: 55px
+            height: 50.72px
+        .main_page__program_item
+            display: flex
+            flex-direction: column
+
+            .main_page__program_text
+
+    .main_page__start
+        display: flex
+        flex-direction: row
+        align-items: center
+        @include adaptiv-value('gap',32,11,1)
+
+        margin-top: 34px
+        @include adaptiv-value('margin-bottom',53,27,1)
+        .button_next
+            @extend %button
+
+            margin-top: 0
+
+        .main_page__get_recomendation
+            font-size: 18px
+            line-height: 24px
+
+    .main_page__expert
+        position: absolute
+        right: 0
+        top: 0
+        bottom: 0
+        margin: auto 0
+
+        z-index: -1
+
+        @include adaptiv-value2('width',707,270,1)
+        @include adaptiv-value2('height',1059,404,1)
+// @media ( max-width:  )

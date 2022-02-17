@@ -1,0 +1,26 @@
+<svg width="228" height="153" viewBox="0 0 228 153" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<g filter="url(#filter0_d_157_7319)">
+<path d="M8 8.81316C17.9201 4.45973 37.5155 17.7873 51.4683 43.9747C68.062 75.1188 83.5735 72.3156 91.1489 75.118C114.236 83.6586 131.551 103.75 142.914 113.294C154.277 122.838 192.695 116.308 204.419 127.359C213.798 136.2 212.535 137.405 210.732 136.903" stroke="url(#paint0_linear_157_7319)" stroke-width="3" stroke-linecap="round" class="HvyiNXyY_0"></path>
+</g>
+<path fill="white" stroke="url(#paint1_linear_157_7319)" stroke-width="4" d="M204,137A7,7 0,1,1 218,137A7,7 0,1,1 204,137" class="HvyiNXyY_1"></path>
+<defs>
+<filter id="filter0_d_157_7319" x="0.499512" y="0.5" width="227" height="152" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+<feOffset dx="4" dy="4"></feOffset>
+<feGaussianBlur stdDeviation="5"></feGaussianBlur>
+<feComposite in2="hardAlpha" operator="out"></feComposite>
+<feColorMatrix type="matrix" values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.7 0"></feColorMatrix>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_157_7319"></feBlend>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_157_7319" result="shape"></feBlend>
+</filter>
+<linearGradient id="paint0_linear_157_7319" x1="8" y1="137" x2="212" y2="137" gradientUnits="userSpaceOnUse">
+<stop stop-color="#98D750"></stop>
+<stop offset="1" stop-color="#39B54A"></stop>
+</linearGradient>
+<linearGradient id="paint1_linear_157_7319" x1="206" y1="142" x2="216" y2="142" gradientUnits="userSpaceOnUse">
+<stop stop-color="#98D750"></stop>
+<stop offset="1" stop-color="#39B54A"></stop>
+</linearGradient>
+</defs>
+<style data-made-with="vivus-instant">.HvyiNXyY_0{stroke-dasharray:255 257;stroke-dashoffset:256;animation:HvyiNXyY_draw 2000ms linear 0ms forwards;}.HvyiNXyY_1{stroke-dasharray:44 46;stroke-dashoffset:45;animation:HvyiNXyY_draw 2000ms linear 1000ms forwards;}@keyframes HvyiNXyY_draw{100%{stroke-dashoffset:0;}}@keyframes HvyiNXyY_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>

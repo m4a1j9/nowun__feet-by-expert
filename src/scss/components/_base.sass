@@ -1,0 +1,98 @@
+html
+    overflow-x: hidden
+    // background: #F8F8F8
+
+main
+    width: 100vw
+    min-height: 100vh
+    //min-height: 1080px
+    position: relative
+
+.y
+    color: #FF9F04
+
+.container
+    display: flex
+    justify-content: center
+    align-items: center
+
+    flex-direction: column
+
+    overflow-x: hidden
+.bg
+    position: absolute
+
+    width: 100%
+    height: 100%
+
+    pointer-events: none
+
+    background: #F8F8F8 url('../img/bg/bg_PC.webp') 50% 0/auto no-repeat
+
+    z-index: -10
+
+    overflow: hidden
+
+@media ( max-width: 600px )
+    .bg
+        background: #F8F8F8 url('../img/bg/bg_M.webp') 50% 0/auto no-repeat
+
+.static-top
+    display: none //! none
+    flex-direction: column
+    align-items: center
+    .static-top__logo
+        @include adaptiv-value2('width',303,187,1)
+        @include adaptiv-value2('height',58,42,1)
+        background: url('../img/logo.webp') 50% 0/contain no-repeat
+        margin-top: 27px
+        margin-bottom: 30px
+    .static-top__progress
+        @include adaptiv-value2('width',600,310,1)
+        height: 10px
+
+        background: #fff
+
+        border-radius: 30px
+        margin-bottom: 16px
+        &::-webkit-progress-bar
+            background: #fff
+
+            transition: 0.3s
+        &::-webkit-progress-value
+            background: #6FC600
+            border-radius: 30px
+
+            transition: 0.3s
+        &::-moz-progress-bar
+            background: #6FC600
+            border-radius: 30px
+
+            transition: 0.3s
+    &._show
+        display: flex
+.static-bottom
+    width: 100vw
+
+    display: none
+    flex-direction: column
+
+    position: absolute
+    bottom: 0
+
+    margin: 0 auto
+    margin-bottom: 26px
+    .static-bottom__top,.static-bottom__bottom
+        font-size: 16px
+        line-height: 26px
+        text-align: center
+        color: #000
+    .static-bottom__middle
+        font-size: 16px
+        line-height: 26px
+        text-align: center
+        a
+            color: #000
+
+    &._show
+        display: flex

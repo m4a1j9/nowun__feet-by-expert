@@ -1,0 +1,90 @@
+%button
+    width: 310px
+    height: 80px
+
+    background: rgba(111, 198, 0, 1)
+    box-shadow: 0px 0px 30px rgba(111, 198, 0, 0.5)
+    border: none
+    border-radius: 300px
+
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+
+    font-size: 28px
+    line-height: 38px
+    color: #FFFFFF
+
+    transition: 0.3s
+
+    margin-top: 30px
+    &:hover
+        background: rgba(99, 177, 0, 1)
+        box-shadow: 0px 0px 30px rgba(111, 198, 0, 0.7)
+
+%green_list
+    .main_page__green_item
+        display: flex
+        flex-direction: row
+        &:not(:last-of-type)
+            margin-bottom: 10px
+
+        img
+            @include adaptiv-value('width',23,20,1)
+            @include adaptiv-value('height',23,20,1)
+
+            @include adaptiv-value('margin-right',8,5,1)
+
+        .main_page__green_text
+            @include adaptiv-value('font-size',18,16,1)
+            @include adaptiv-value('line-height',25,22,1)
+
+%title
+    @include adaptiv-value('font-size',30,24,1)
+    @include adaptiv-value('line-height',41,33,1)
+
+%inputText
+    height: 58px
+    width: 310px
+
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+
+    background: #fff
+    border-radius: 10px
+    border: 1px solid #fff
+
+    position: relative
+    padding-left: 26px
+
+    cursor: text
+
+    transition: 0.3s
+    &._active
+        box-shadow: 15px 21px 55px rgba(86, 170, 45, 0.15)
+        border: 1px solid #75C94E
+    &::-webkit-input-placeholder
+        color: rgba(0, 0, 0, 0.25)
+    &::-moz-placeholder
+        color: rgba(0, 0, 0, 0.25)
+
+%section
+    @include adaptiv-value2('width',600,320,1)
+    min-height: 100vh
+
+    display: none //!none
+    flex-direction: column
+    align-items: center
+
+    @include adaptiv-value2('padding-right',0,5,1)
+    @include adaptiv-value2('padding-left',0,5,1)
+    &._show
+        display: flex
+
+%test__title
+    @include adaptiv-value2('font-size',36,24,1)
+    @include adaptiv-value2('line-height',55,35,1)
+    text-align: center

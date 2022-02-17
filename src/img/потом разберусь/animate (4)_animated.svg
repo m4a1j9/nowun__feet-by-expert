@@ -1,0 +1,29 @@
+<svg width="485" height="190" viewBox="0 0 485 190" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<path stroke="url(#paint0_linear_157_7317)" stroke-width="41" d="M20.5,190L20.5,150" class="cwUvFAob_0"></path>
+<path stroke="url(#paint1_linear_157_7317)" stroke-width="41" d="M131.5,190L131.5,120" class="cwUvFAob_1"></path>
+<path stroke="url(#paint2_linear_157_7317)" stroke-width="41" d="M242.5,190L242.5,60" class="cwUvFAob_2"></path>
+<path stroke="url(#paint3_linear_157_7317)" stroke-width="41" d="M353.5,190L353.5,8.96083e-07" class="cwUvFAob_3"></path>
+<path stroke="url(#paint4_linear_157_7317)" stroke-width="41" d="M464.5,190L464.5,170" class="cwUvFAob_4"></path>
+<defs>
+<linearGradient id="paint0_linear_157_7317" x1="42" y1="190" x2="42" y2="150" gradientUnits="userSpaceOnUse">
+<stop stop-color="#98D750"></stop>
+<stop offset="1" stop-color="#39B54A"></stop>
+</linearGradient>
+<linearGradient id="paint1_linear_157_7317" x1="153" y1="190" x2="153" y2="120" gradientUnits="userSpaceOnUse">
+<stop stop-color="#98D750"></stop>
+<stop offset="1" stop-color="#39B54A"></stop>
+</linearGradient>
+<linearGradient id="paint2_linear_157_7317" x1="264" y1="190" x2="264" y2="60" gradientUnits="userSpaceOnUse">
+<stop stop-color="#98D750"></stop>
+<stop offset="1" stop-color="#39B54A"></stop>
+</linearGradient>
+<linearGradient id="paint3_linear_157_7317" x1="373" y1="187.889" x2="373" y2="-5.91883e-06" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF9F03"></stop>
+<stop offset="1" stop-color="#C11A2A"></stop>
+</linearGradient>
+<linearGradient id="paint4_linear_157_7317" x1="486" y1="190" x2="486" y2="170" gradientUnits="userSpaceOnUse">
+<stop stop-color="#98D750"></stop>
+<stop offset="1" stop-color="#39B54A"></stop>
+</linearGradient>
+</defs>
+<style data-made-with="vivus-instant">.cwUvFAob_0{stroke-dasharray:40 42;stroke-dashoffset:41;animation:cwUvFAob_draw 2000ms linear 0ms forwards;}.cwUvFAob_1{stroke-dasharray:70 72;stroke-dashoffset:71;animation:cwUvFAob_draw 2000ms linear 250ms forwards;}.cwUvFAob_2{stroke-dasharray:130 132;stroke-dashoffset:131;animation:cwUvFAob_draw 2000ms linear 500ms forwards;}.cwUvFAob_3{stroke-dasharray:190 192;stroke-dashoffset:191;animation:cwUvFAob_draw 2000ms linear 750ms forwards;}.cwUvFAob_4{stroke-dasharray:20 22;stroke-dashoffset:21;animation:cwUvFAob_draw 2000ms linear 1000ms forwards;}@keyframes cwUvFAob_draw{100%{stroke-dashoffset:0;}}@keyframes cwUvFAob_fade{0%{stroke-opacity:1;}94.44444444444444%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
